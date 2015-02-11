@@ -4,7 +4,7 @@ To change this template use Tools | Templates.
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>silverjack game</title>
 </head>
 <body>
 
