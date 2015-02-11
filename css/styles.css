@@ -10,3 +10,10 @@
 root {
     display: block;
 }
+
+h1{
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
