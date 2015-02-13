@@ -15,8 +15,11 @@ To change this template use Tools | Templates.
 <body>
     
     <div id="wrapper">
-        <h1><b>Silverjack</b></h1>    
-        
+        <h1><b>Silverjack</b></h1>  
+        <table>
+            <tr><td><img src="img/players/player1.png"></td>
+            <td><?php echo "<img src='img/".generaterandomsuit()."' >"?></td></tr>
+        </table>
         
         
     </div>
