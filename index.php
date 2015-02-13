@@ -16,13 +16,14 @@ To change this template use Tools | Templates.
     
     <div id="wrapper">
         <h1><b>Silverjack</b></h1>  
-        <!--<table>
+        <!--<table> 
             <tr><td><img src="img/players/player1.png"></td>
             <td><?php echo "<img src='img/".generaterandomsuit()."' >"?></td>
             <td><?php echo "<img src='img/".generaterandomsuit()."' >"?></td>
             <td><?php echo "<img src='img/".generaterandomsuit()."' >"?></td>
             <td><?php echo "<img src='img/".generaterandomsuit()."' >"?></td></tr>
         </table>-->
+        <!-- above code is my test vrsion for something else that is obsolete now, dont use. Will delete myself later.-->
         
         <table>
             <?php 
