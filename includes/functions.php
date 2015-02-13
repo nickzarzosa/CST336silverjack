@@ -15,13 +15,13 @@ function generateRandomSuit()
         case 4:$folder = "spades/";
         break;
     }
-    $number = genearateRandomNumber();
-    return $folder.$number;
+    
+    return $folder;
 }
 //card number
-function genearateRandomNumber()
+function generateRandomNumber()
 {
-    $number = rand(1,13).".png";
+    $number = rand(1,13);
         
     return $number;
 }
