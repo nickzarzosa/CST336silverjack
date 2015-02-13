@@ -32,6 +32,7 @@ To change this template use Tools | Templates.
                 
                 for($i=1;$i<4;$i++)
                 {
+                    $player_score=0;
                     echo "<tr><td><img src='img/players/player".$i.".png'></td>";
                     for($k=0;$k<4;$k++)
                     {
@@ -39,6 +40,7 @@ To change this template use Tools | Templates.
                         echo "<td><img src='img/".generaterandomsuit()."/".$num.".png' ></td>";
                         $player_score += $num;
                     }
+                    echo "<td>$player_score</td>";
                     if($player_score > $winning)
                     {
                         $winning_player = $i;
