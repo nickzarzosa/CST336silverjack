@@ -51,9 +51,18 @@ To change this template use Tools | Templates.
                 }
             ?>
         </table>
+        
         <button onclick="reloadgame()">
             New Game
         </button>
+        <script>
+        function reloadgame() {
+            location.reload();
+        }
+        </script>
+        
+        
+        
         
     </div>
     
