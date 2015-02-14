@@ -30,6 +30,7 @@ To change this template use Tools | Templates.
                 $winning_player;
                 $winning = 0;
                 $player_score =0;
+                $cardsplayed = array();
                 
                 for($i=1;$i<4;$i++)
                 {
@@ -42,10 +43,12 @@ To change this template use Tools | Templates.
                         $player_score += $num;
                     }
                     echo "<td>$player_score</td>";
+                   
                     if((42-$player_score)<$winning && $player_score >=0)
                     {
                         $winning_player = $i;
                         $winning = $player_score;
+                        
                     }
                     
                 }
