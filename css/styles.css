@@ -29,8 +29,7 @@ h1{
 }
 
 button {
-   float:right;
-   margin:auto;
+   
    border: 5px solid #401818;
    background: #e8dcdc;
    background: -webkit-gradient(linear, left top, left bottom, from(#eb4949), to(#e8dcdc));

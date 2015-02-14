@@ -35,14 +35,14 @@ To change this template use Tools | Templates.
                 {
                     $player_score=0;
                     echo "<tr><td><img src='img/players/player".$i.".png'></td>";
-                    for($k=0;$k<4;$k++)
+                    for($k=0;$k<6;$k++)
                     {
                         $num= generateRandomNumber();
                         echo "<td><img src='img/".generaterandomsuit()."/".$num.".png' ></td>";
                         $player_score += $num;
                     }
                     echo "<td>$player_score</td>";
-                    if($player_score > $winning)
+                    if((42-$player_score)<$winning && $player_score >=0)
                     {
                         $winning_player = $i;
                         $winning = $player_score;
