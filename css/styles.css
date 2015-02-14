@@ -26,3 +26,52 @@ h1{
     padding:10px;
     border-radius:15px;
 }
+
+button {
+   
+   border: 5px solid #401818;
+   background: #e8dcdc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#eb4949), to(#e8dcdc));
+   background: -webkit-linear-gradient(top, #eb4949, #e8dcdc);
+   background: -moz-linear-gradient(top, #eb4949, #e8dcdc);
+   background: -ms-linear-gradient(top, #eb4949, #e8dcdc);
+   background: -o-linear-gradient(top, #eb4949, #e8dcdc);
+   background-image: -ms-linear-gradient(top, #eb4949 0%, #e8dcdc 100%);
+   padding: 14px 28px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #b88a8a 0 1px 0;
+   color: #6b0606;
+   font-size: 24px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   border: 5px solid #401212;
+   text-shadow: #b57979 0 1px 0;
+   background: #ff3030;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f5d7d7), to(#ff3030));
+   background: -webkit-linear-gradient(top, #f5d7d7, #ff3030);
+   background: -moz-linear-gradient(top, #f5d7d7, #ff3030);
+   background: -ms-linear-gradient(top, #f5d7d7, #ff3030);
+   background: -o-linear-gradient(top, #f5d7d7, #ff3030);
+   background-image: -ms-linear-gradient(top, #f5d7d7 0%, #ff3030 100%);
+   color: #700000;
+   }
+button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 5px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#ff3030));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #6b0e0e;
+   }

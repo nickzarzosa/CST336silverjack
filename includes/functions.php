@@ -25,5 +25,9 @@ function generateRandomNumber()
         
     return $number;
 }
+function reloadgame()
+{
+    location.reload();
+}
 
 ?>
